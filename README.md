@@ -6,7 +6,7 @@
 	1.1 Установка node_modules сервера: `npm install`
 	1.2 Установка node_modulse клиента: `npm client:install`
 
-### 2. Запуска в dev режиме:
+### 2. Запуск в dev режиме:
 	`npm run dev`  
 
 ### 3. Запуск в production

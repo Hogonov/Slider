@@ -3,7 +3,6 @@ import {AuthContext} from "../../Context/AuthContext"
 import {Button} from "../../Components/Button"
 import {useHttp} from "../../Hooks/fetch.hook"
 import style from '../../Styles/PageStyles/Auth.module.scss'
-import {toast} from 'react-toastify'
 import 'react-toastify/dist/ReactToastify.css'
 
 

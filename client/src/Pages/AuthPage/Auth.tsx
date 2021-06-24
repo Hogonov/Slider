@@ -20,7 +20,7 @@ export const Auth: React.FC = () => {
 
     const loginHandler = async () => {
         try {
-            const data = await request('http://localhost:5000/api/auth/login', 'POST', {...form});
+            const data = await request('/api/auth/login', 'POST', {...form});
             auth.login(data.token, data.login)
         } catch (e) {
 
@@ -28,7 +28,7 @@ export const Auth: React.FC = () => {
     }
     const registerHandler = async () => {
         try {
-            const data = await request('http://localhost:5000/api/auth/register', 'POST', {...form})
+            await request('/api/auth/register', 'POST', {...form})
         } catch (e) {
         }
     }

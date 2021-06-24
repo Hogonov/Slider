@@ -16,7 +16,7 @@
 	3.1 Компиляция клиента:
 		`npm run client:build`
 	3.2 Запуск:
-		`npm start`
+		`npm start` адрес http://localhost:80
 
 ## Структура сервера
 

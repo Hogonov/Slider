@@ -1,6 +1,4 @@
 const {Router} = require('express')
-const auth = require('../middleware/auth.middleware')
-const User = require('../collections/User')
 const Images = require('../collections/Images')
 const fs = require('fs')
 const multer  = require('multer')

@@ -33,7 +33,7 @@ router.post(
                 return res.status(400).json({message: 'Такой пользователь уже существует'})
             }
 
-            const hashedPassword = await bcrypt.hash(password, 12)
+            const hashedPassword = await bcrypt.hash(password, 10)
             const user = new User({username, password: hashedPassword})
 
             await user.save();
@@ -65,9 +65,9 @@ router.post(
                 })
             }
 
-            const {login, password} = req.body;
+            const {username, password} = req.body;
 
-            const user = await User.findOne({ login });
+            const user = await User.findOne({ username });
 
             if (!user) {
                 return res.status(400).json({ message: 'Пользователь не найден' });

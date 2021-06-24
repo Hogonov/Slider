@@ -1,0 +1,65 @@
+@import "~materialize-css/dist/css/materialize.min.css";
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.container {
+    margin-top: 100px;
+}
+
+#form {
+    border-radius: 5px;
+    background-color: #ffffff;
+    padding: 20px;
+    -webkit-box-shadow: 0 5px 10px 2px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 0 5px 10px 2px rgba(34, 60, 80, 0.2);
+    box-shadow: 0 5px 10px 2px rgba(34, 60, 80, 0.2);
+}
+
+.custom-input {
+    border-bottom: 1px solid #8cc3f3 !important;
+    box-shadow: 0 1px 0 0 #8cc3f3 !important;
+}
+.custom-input + label {
+    color: #000000 !important;
+}
+.custom-input:focus + label {
+    color: #3273AB !important;
+}
+.custom-input:focus {
+    border-bottom: 1px solid #3273AB !important;
+    box-shadow: 0 1px 0 0 #3273AB !important;
+}
+
+.custom-input-file {
+    border-bottom: 1px solid #8cc3f3 !important;
+    box-shadow: 0 1px 0 0 #8cc3f3 !important;
+}
+.custom-input-file::-webkit-file-upload-button{
+    background-color: #3a73ab;
+    padding: 10px;
+    border-radius: 5px;
+    border: 0;
+    color: white;
+    outline: none;
+    margin-bottom: 2px;
+}
+.custom-input-file::-webkit-file-upload-button:hover{
+    background-color: #7ba5c6;
+}
+.custom-input-file:focus{
+    outline: none !important;
+    border-bottom: 1px solid #3273AB !important;
+    box-shadow: 0 1px 0 0 #3273AB !important;
+}

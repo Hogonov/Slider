@@ -1,0 +1,16 @@
+.main {
+  div {
+    margin-bottom: 20px;
+    align-items: center;
+    justify-content: center;
+  }
+  .fileForm {
+    display: flex;
+  }
+  .view {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 50px;
+    grid-row-gap: 20px;
+  }
+}

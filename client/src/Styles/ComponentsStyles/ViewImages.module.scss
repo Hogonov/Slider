@@ -1,0 +1,18 @@
+.imageBlock {
+  margin: 10px;
+  cursor: pointer;
+  display: flex;
+
+  img {
+    border-radius: 5px;
+    &:hover {
+      opacity: 0.5;
+      filter: alpha(opacity=50);
+    }
+
+  }
+  &:hover {
+    background: url("../../Public/Images/cancel.png") 50% 50% no-repeat;
+    background-size: contain;
+  }
+}

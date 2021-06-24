@@ -1,0 +1,6 @@
+{
+  "port": 5000,
+  "prodPort": 80,
+  "secret": "_=?};2ug)VWW`.26xY$*3S(#&._8&)gycdk'VBZ+DRR5p6[#U^HPJg#ZK}ES/Y",
+  "mongoUri": "mongodb+srv://Admin:Ik1iNu1yIVwe7ioR@slider.retmj.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
+}
